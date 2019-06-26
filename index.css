@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    padding-top: 90px;
+    padding-top: 25vh;
     background-color: #fafafa;
     width: 100%;
     display: flex;
