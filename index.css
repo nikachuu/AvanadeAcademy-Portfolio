@@ -162,8 +162,8 @@ main section .sections__accordion .divider {
 }
 
 main section .sections__accordion ul {
-    font-size: 14px;
-    margin: 10px 0 0 5px;
+    font-size: 12px;
+    margin-top: 10px;
 }
 
 body footer {
