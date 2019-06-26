@@ -122,6 +122,7 @@ main section h3 {
     color: #de4130;
     text-shadow: 2px 2px 0px rgb(227, 230, 230);
     margin-bottom: 10px;
+    font-size: 21px;
 }
 
 main section .sections__accordion {
@@ -139,7 +140,7 @@ main section .sections__accordion h4 {
     letter-spacing: -1px;
     color: #de4130;
     text-shadow: 2px 2px 0px rgb(227, 230, 230);
-    font-size: 16px;
+    font-size: 18px;
     margin-top: 10px;
 }
 
@@ -147,7 +148,7 @@ main section .sections__accordion span {
     background-color: #fd998e;
 }
 
-main section .sections__accordion .divider{
+main section .sections__accordion .divider {
     background-color: rgb(230, 219, 219);
     width: 85%;
     height: 1px;
@@ -158,6 +159,11 @@ main section .sections__accordion .divider{
     main section .sections__accordion .divider {
         width: 95%
     }
+}
+
+main section .sections__accordion ul {
+    font-size: 14px;
+    margin: 10px 0 0 5px;
 }
 
 body footer {
