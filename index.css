@@ -7,20 +7,25 @@
     padding: 0;
 }
 
-
-
-body {
-    background-color: #fafafa;
+html {
     width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    height: 100%;
 }
 
-@media only screen and (min-width: 768px) {
+body {
+    padding-top: 90px;
+    background-color: #fafafa;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (min-width: 760px) {
     body {
+        flex-direction: column;
+        width: 100%;
         align-items: center;
+        justify-content: center;
     }
 }
 
@@ -36,20 +41,18 @@ body h2 {
 
 header {
     height: 200px;
-    padding: 0 35px 0 35px;
+    padding: 25px 35px 0 35px;
     width: 100%;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
     header {
-        align-items: center;
-        justify-content: center;
+        width: 60%;
     }
 }
-
 
 header .header--personalphoto {
     box-shadow: 2px 2px 0px rgb(227, 230, 230);
@@ -63,8 +66,9 @@ header .header--intro {
     margin: 0;
     padding: 0;
     border: none;
-    width: 50%;
+    width: 100%;
 }
+
 
 header .header--intro h1 {
     border-bottom: 1px solid #fd998e;
@@ -88,20 +92,21 @@ header .header--intro .header--socialmedia a:hover {
     transition: color 3s fade-out;
 }
 
+
 main {
-    height: 40%;
-    padding-right: 35px;
+    height: 100%;
+    padding: 30px 30px 85px 0;
 }
 
 @media only screen and (min-width: 768px) {
-    main{
-        width: 64%;
+    main {
+        width: 60%;
     }
 }
 
 main p,
 main strong {
-    margin: 15px 0 25px 0;
+    margin: 15px 0 10px 0;
 }
 
 main section {
@@ -110,7 +115,6 @@ main section {
 }
 
 main section h3 {
-    font-size: 24px;
     padding-bottom: 5px;
     border-bottom: 1px solid #fd998e;
     font-family: 'Montserrat', sans-serif;
@@ -135,7 +139,7 @@ main section .sections__accordion h4 {
     letter-spacing: -1px;
     color: #de4130;
     text-shadow: 2px 2px 0px rgb(227, 230, 230);
-    font-size: 19px;
+    font-size: 16px;
     margin-top: 10px;
 }
 
@@ -154,11 +158,6 @@ main section .sections__accordion .divider{
     main section .sections__accordion .divider {
         width: 95%
     }
-}
-
-main section .sections__accordion ul{
-    font-size: 14px;
-    margin-top: 5px;
 }
 
 body footer {
